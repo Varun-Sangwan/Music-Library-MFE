@@ -4,14 +4,13 @@ import songs from "../data/songs";
 import { songsListToDisplay } from "../MusicLibrary.logic";
 import { vi } from "vitest";
 
-// ✅ Mock the `songsListToDisplay` function to control test behavior
 vi.mock("../MusicLibrary.logic", () => ({
   songsListToDisplay: vi.fn(),
 }));
 
 describe("MusicLibrary Component", () => {
   beforeEach(() => {
-    vi.clearAllMocks(); // ✅ Clears mock calls before each test
+    vi.clearAllMocks();
   });
 
   it("renders the Music Library title", () => {

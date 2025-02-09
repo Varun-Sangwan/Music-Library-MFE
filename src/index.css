@@ -1,4 +1,3 @@
-/* 🌟 Full Page Styling */
 .music-library-container {
   width: 100vw;
   min-height: 100vh;
@@ -11,7 +10,6 @@
   flex-direction: column;
 }
 
-/* 🎵 Title */
 .music-library-title {
   text-align: center;
   font-size: 2rem;
@@ -20,7 +18,7 @@
 }
 
 .search-bar {
-  margin: 0 0 20px; /* ✅ Centers on the page */
+  margin: 0 0 20px; 
   padding: 12px;
   border-radius: 6px;
   border: 1px solid #ddd;
@@ -31,14 +29,11 @@
   outline: none;
 }
 
-/* ✨ Focus effect */
 .search-bar:focus {
   border-color: #667eea;
   box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
 }
 
-
-/* 🔍 Filters & Sort Controls */
 .filter-controls {
   display: flex;
   justify-content: flex-end;
@@ -60,7 +55,6 @@
   min-width: 250px;
 }
 
-/* 🎵 Song List - Grid Layout */
 .song-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -68,7 +62,6 @@
   padding-top: 10px;
 }
 
-/* 🎵 Song Card */
 .song-card {
   background: rgba(255, 255, 255, 0.15);
   padding: 15px;
@@ -102,15 +95,14 @@
 }
 
 
-/* 🌍 Responsive Design */
 @media (max-width: 768px) {
   .search-bar {
-    width: 90%; /* ✅ Adjusts width for smaller screens */
+    width: 90%; 
     font-size: 0.9rem;
     padding: 10px;
   }
 }
-/* 🌍 Responsive Design */
+
 @media (max-width: 768px) {
   .filter-controls {
     flex-direction: column;

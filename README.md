@@ -1,9 +1,4 @@
-### **README for `music-library` (Micro Frontend)**
-
-#### **File: `music-library/README.md`**
-
-````md
-# 🎼 Music Library - Micro Frontend (MFE) 🎼
+# Music Library - Micro Frontend (MFE)
 
 ## Overview
 
@@ -16,43 +11,49 @@ The **Music Library** is a micro frontend that provides a fully interactive musi
 - Supports **sorting by Title, Artist, Album**
 - Supports **grouping by Artist or Album**
 - Uses **React Suspense** for lazy loading
-- Fully tested with Jest & React Testing Library
-
-## Folder Structure
-
-music-library/ │── src/ │ ├── components/ # Song List, Filters │ ├── data/ # Songs Data │ ├── pages/ # Music Library Page │ ├── styles/ # UI Styling │ ├── App.tsx # Root Component │ ├── main.tsx # React Entry Point │── vite.config.ts # Module Federation Config │── package.json # Dependencies & Scripts │── README.md # Project Documentation
+- **100%+ unit test coverage** with Vitest & React Testing Library
 
 ## Installation & Setup
 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/music-library.git
+   git clone https://github.com/Varun-Sangwan/Music-Library-MFE
    cd music-library
    ```
 
 2. Install dependencies:
+   ```sh
    npm install
+   ```
 3. Then, start the micro frontend App:
+   ```sh
    npm run dev
+   ```
 
 ## Running Tests & Coverage
 
+```sh
 npx vitest
 npx vitest --coverage
+```
 
 ## Micro Frontend Integration
 
 Exposes MusicLibrary to the Core App:
 
+```sh
 exposes: {
 "./MusicLibrary": "./src/MusicLibrary"
 }
+```
 
 ## Tech Stack
 
-Frontend: React, TypeScript, Tailwind CSS
-State Management: React Hooks
-Micro Frontend: Vite + Module Federation
-Testing: Vitest, Jest, React Testing Library
-````
+**Frontend**: React, TypeScript
+
+**State Management**: React Hooks
+
+**Micro Frontend**: Vite + Module Federation
+
+**Testing**: Vitest, React Testing Library

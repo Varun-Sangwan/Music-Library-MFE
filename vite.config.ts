@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     federation({
       name: "musicLibrary",
-      filename: "remoteEntry.js", // ✅ Ensures remoteEntry.js is generated
+      filename: "remoteEntry.js",
       exposes: {
         "./MusicLibrary": "./src/MusicLibrary.tsx",
       },
@@ -26,7 +26,7 @@ export default defineConfig({
     target: "esnext",
     minify: false,
     cssCodeSplit: false,
-    outDir: "dist", // ✅ Ensures build files go into `dist/`
+    outDir: "dist",
   },
   preview: {
     port: 3001,
