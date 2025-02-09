@@ -1,0 +1,125 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MusicLibrary Component > renders App component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="p-6 bg-gray-200 text-white min-h-screen"
+  >
+    <h1
+      class="text-3xl font-bold mb-4"
+    >
+      Music Library
+    </h1>
+    <input
+      class="w-full p-2 rounded bg-gray-800 text-white mb-4"
+      placeholder="Search by title, artist, album..."
+      type="text"
+      value=""
+    />
+    <div
+      class="flex space-x-4 mb-4"
+    >
+      <select
+        class="p-2 bg-gray-800 rounded"
+      >
+        <option
+          value="title"
+        >
+          Sort by Title
+        </option>
+        <option
+          value="artist"
+        >
+          Sort by Artist
+        </option>
+        <option
+          value="album"
+        >
+          Sort by Album
+        </option>
+      </select>
+      <select
+        class="p-2 bg-gray-800 rounded"
+      >
+        <option
+          value="none"
+        >
+          No Grouping
+        </option>
+        <option
+          value="artist"
+        >
+          Group by Artist
+        </option>
+        <option
+          value="album"
+        >
+          Group by Album
+        </option>
+      </select>
+    </div>
+    <div
+      class="mb-6"
+    >
+      <ul
+        class="border-l-4 border-blue-500 pl-4"
+      >
+        <li
+          class="p-2 bg-gray-800 mb-2 rounded"
+        >
+          🎵 
+          <strong>
+            Billie Jean
+          </strong>
+           - Michael Jackson (Thriller)
+        </li>
+        <li
+          class="p-2 bg-gray-800 mb-2 rounded"
+        >
+          🎵 
+          <strong>
+            Bohemian Rhapsody
+          </strong>
+           - Queen (A Night at the Opera)
+        </li>
+        <li
+          class="p-2 bg-gray-800 mb-2 rounded"
+        >
+          🎵 
+          <strong>
+            Hey Jude
+          </strong>
+           - The Beatles (The Beatles)
+        </li>
+        <li
+          class="p-2 bg-gray-800 mb-2 rounded"
+        >
+          🎵 
+          <strong>
+            Hotel California
+          </strong>
+           - Eagles (Hotel California)
+        </li>
+        <li
+          class="p-2 bg-gray-800 mb-2 rounded"
+        >
+          🎵 
+          <strong>
+            Imagine
+          </strong>
+           - John Lennon (Imagine)
+        </li>
+        <li
+          class="p-2 bg-gray-800 mb-2 rounded"
+        >
+          🎵 
+          <strong>
+            Stairway to Heaven
+          </strong>
+           - Led Zeppelin (Led Zeppelin IV)
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
