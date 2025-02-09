@@ -7,7 +7,7 @@ const songs: SongsType[] = [
     artist: "Queen",
     album: "A Night at the Opera",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/9/9f/Queen_A_Night_At_The_Opera.png",
+      "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const songs: SongsType[] = [
     artist: "Queen",
     album: "A Night at the Opera",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/9/9f/Queen_A_Night_At_The_Opera.png",
+      "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const songs: SongsType[] = [
     artist: "Queen",
     album: "A Night at the Opera",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/9/9f/Queen_A_Night_At_The_Opera.png",
+      "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
   },
   {
     id: 4,
@@ -75,16 +75,14 @@ const songs: SongsType[] = [
     title: "Imagine",
     artist: "John Lennon",
     album: "Imagine",
-    image:
-      "https://upload.wikimedia.org/wikipedia/en/0/02/JohnLennon-albums-imagine.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg",
   },
   {
     id: 11,
     title: "Hey Jude",
     artist: "The Beatles",
     album: "The Beatles",
-    image:
-      "https://upload.wikimedia.org/wikipedia/en/2/2b/Hey_Jude_album_cover.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg",
   },
   {
     id: 12,
@@ -161,8 +159,7 @@ const songs: SongsType[] = [
     title: "Lose Yourself",
     artist: "Eminem",
     album: "8 Mile Soundtrack",
-    image:
-      "https://upload.wikimedia.org/wikipedia/en/2/22/Eminem_-_8_Mile_Soundtrack.png",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg",
   },
   {
     id: 22,
@@ -177,7 +174,7 @@ const songs: SongsType[] = [
     artist: "The Weeknd",
     album: "After Hours",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Weeknd_-_After_Hours.png",
+      "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
   },
   {
     id: 24,
@@ -185,7 +182,7 @@ const songs: SongsType[] = [
     artist: "The Weeknd",
     album: "After Hours",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Weeknd_-_After_Hours.png",
+      "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
   },
 ];
 

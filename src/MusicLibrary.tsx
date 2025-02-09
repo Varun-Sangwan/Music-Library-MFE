@@ -54,7 +54,7 @@ const MusicLibrary: React.FC = () => {
           }
           data-testid="group-select"
         >
-          <option value="none">No Grouping</option>
+          <option value="none">All</option>
           <option value="artist">Group by Artist</option>
           <option value="album">Group by Album</option>
         </select>

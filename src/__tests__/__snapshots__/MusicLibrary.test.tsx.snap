@@ -44,7 +44,7 @@ exports[`MusicLibrary Component > renders App component correctly 1`] = `
         <option
           value="none"
         >
-          No Grouping
+          All
         </option>
         <option
           value="artist"
